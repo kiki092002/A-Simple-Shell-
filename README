@@ -1,0 +1,8 @@
+Name: Tuan Phan & Nga Hoang
+
+- Initialy, we have some problems with pipe() and dup2(), but now the problems has solved and our program works perfectly. 
+
+
+- Strength: Our program works with a simple command, commands with a single pipe, commands with two pipes, commands with many pipes and a lots of data. All tests passed.
+- Weakness:  having incorrect value of status while handling error. Instead of returning 1 when error happened, the shell returned 255.
+
